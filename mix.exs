@@ -3,7 +3,7 @@ defmodule BorsNgBot.MixProject do
 
   def project do
     [
-      app: :borsngbot,
+      app: :bors_ng_bot,
       version: "0.1.0",
       elixir: "~> 1.11",
       start_permanent: Mix.env() == :prod,
