@@ -11,6 +11,7 @@ defmodule BorsNgBot.Application do
       # Starts a worker by calling: BorsNgBot.Worker.start_link(arg)
       # {BorsNgBot.Worker, arg}
       ExGram,
+      BorsNgBot.Repo,
       {BorsNgBot.Bot, [method: :polling, token: Application.fetch_env!(:bors_ng_bot, :telegram_bot_token)]}
     ]
 

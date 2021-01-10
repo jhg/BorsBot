@@ -26,6 +26,8 @@ defmodule BorsNgBot.MixProject do
       {:tesla, "~> 1.2"},
       {:hackney, "~> 1.12"},
       {:jason, "~> 1.2"},
+      {:ecto_sql, "~> 3.5"},
+      {:postgrex, "~> 0.15"}
     ]
   end
 end
