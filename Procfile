@@ -1,1 +1,1 @@
-web: ./target/release/bors_bot
+worker: ./target/release/bors_bot
