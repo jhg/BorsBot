@@ -1,1 +1,1 @@
-worker: cargo run --release
+web: ./target/release/bors_bot
