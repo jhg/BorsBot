@@ -1,1 +1,1 @@
-worker: mix run --no-halt
+worker: cargo run --release
